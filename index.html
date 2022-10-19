@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/6f97a6e7cb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/logo SEGYCOM01.png" alt="" class="logo">
+                <ul id="sideMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Systems Engineer</p>
+                <h1>Hi, I'm <span>John Lanza Martínez</span><br>from Perú</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/johnSinFondo4.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me </h1>
+                    <p>A detailed systems engineer with over 15 years of experience. With the ability to develop
+                        relationships with customers and vendors effectively. <br>
+
+                        Resolute and with more than 18 years of experience in software engineering and application
+                        development. Effective mentor and tutor with a strong commitment to leading talented teams.
+                        Interested in working hand in hand with teams and clients to identify the most efficient and
+                        beneficial solutions for process improvement. <br>
+
+                        Communicative person, friendly and able to adapt to each situation.</p>
+                    <div class="tab-titles">
+                        <p class='tab-links active-link' onclick="opentab('skills')">Skills</p>
+                        <p class='tab-links' onclick="opentab('experience')">Experience</p>
+                        <p class='tab-links' onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Systems Engineer</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web Interface Development</li>
+                            <li><span>App Development</span><br>React App Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>University Teacher 2007 - 2015</span><br>Nestor Caceres Velasquez Andean
+                                University</li>
+                            <li><span>Commercial Management Assistant 2001</span><br>Electro Puno S.A.A</li>
+                            <li><span>Systems and Computing Unit 2000</span><br>Latin Bank</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Systems Engineer 1996 - 2000</span><br>Nestor Caceres Velasquez Andean University
+                            </li>
+                            <li><span>Full Stack Development 2022</span><br>Academlo</li>
+                            <li><span>Security Cameras 2021</span><br>Independent</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Systems Engineer</h2>
+                    <p>As a systems engineer my role is to design, develop and improve engineering systems. I work on
+                        the entire system and can be involved in all aspects of design, development, integration,
+                        manufacturing and marketing.</p>
+                    <a href="">Learn more...</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Web Development</h2>
+                    <p>As a web developer my role is to design, create and maintain web pages and applications, in this
+                        sense, I work on internet and intranet sites.</p>
+                    <a href="">Learn more...</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>As a web developer I am responsible for building and maintaining the website through code, making
+                        sure that navigation is easy for the user, I also focus on designing the logic and solutions so
+                        that the actions requested on the web page are executed correctly. correct, i.e. the backend .
+                    </p>
+                    <a href="">Learn more...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/eCommerce.jpg" alt="">
+                    <div class="layer">
+                        <h3>eCommerce App</h3>
+                        <p>The virtual store or online store (also called ecommerce), is a web page developed and
+                            designed specifically to sell or offer products or services. This work is also known as
+                            electronic commerce.</p>
+                        <a href="https://bonik-ecommerce-8adc08.netlify.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/movieTrailer.jpg" alt="">
+                    <div class="layer">
+                        <h3>React App</h3>
+                        <p>React helps you create interactive user interfaces in a simple way. Design simple views for
+                            each state in your app, and React will take care of efficiently updating and rendering the
+                            correct components when the data changes.</p>
+                        <a href="https://movie-trailer-yt.netlify.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/publicidadResponsiva.jpg" alt="">
+                    <div class="layer">
+                        <h3>Web Design</h3>
+                        <p>Web design is an area focused on the development of digital interfaces, such as the design of
+                            web sites and applications. To do this, web designers create pages using markup languages
+                            such as HTML, CSS, and JAVASCRIPT.</p>
+                        <a href="https://publi-coca-sprite.netlify.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more...</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> johnlanza54@gmail.com </p>
+                    <p><i class="fa-solid fa-square-phone"></i> +51919063494 </p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/john.lanza.9465/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/yousniper2020"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.instagram.com/theyousniper"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/TheYousniper/"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="./docs/hojadevida.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form id="form" action="https://formspree.io/f/mzbwggvb"
+                    method="POST">
+                        <input type="text" name="name" placeholder="Your Name..." required>
+                        <input type="email" name="email" placeholder="Your Email..." required>
+                        <textarea name="message" rows="6" placeholder="Your Message..."></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <a href="mailto:johnlanza54@gmail.com" id="mail">mail</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-copyright"></i> SEGYCOM Made by John Harold Lanza Martínez Perú - 2022</p>
+        </div>
+    </div>
+    <script>
+        const tablinks = document.getElementsByClassName('tab-links');
+        const tabcontents = document.getElementsByClassName('tab-contents');
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove('active-link');
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabname).classList.add('active-tab')
+        }
+    </script>
+    <script>
+        const sidemenu = document.getElementById('sideMenu');
+
+        function openMenu(){
+            sidemenu.style.right = 0;
+        }
+        function closeMenu(){
+            sidemenu.style.right = '-40%';
+        }
+    </script>
+</body>
+
+</html>
